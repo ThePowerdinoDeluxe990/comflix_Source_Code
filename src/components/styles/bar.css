@@ -1,0 +1,29 @@
+.bar{
+    display:flex;
+    position:sticky;
+    flex-direction:row;
+    background-color: rgb(20, 1, 1);
+    padding-top:20px;
+    padding-left:30px;
+    padding-right:30px;
+    max-height: 50px;
+    position: sticky;
+    top: 0;
+    align-self: flex-start;
+    align-items:center;
+    justify-content: space-between;  
+    min-width:fit-content;
+}
+.barbtn{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    background-color:transparent;
+    border-color:transparent;
+    color:brown;
+}
+.barbtn:hover{
+    text-shadow:0px 0px 20px rgb(255, 255, 255),0px 0px 20px rgb(255, 255, 255);
+}
+.barbtn:active{
+    color:rgb(46, 12, 12);
+}
